@@ -37,7 +37,7 @@ main {
     width: 600px;
     height: 700px;
     position: relative;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 
@@ -217,12 +217,13 @@ form>.botao_girar:hover {
 .campo_senha input {
     flex: 1;
     border: none;
-    color: #7e4cb1 ;
+    color: #7e4cb1;
 }
+
 .campo_senha input:focus {
     outline: none;
     border: none;
-    color: #7e4cb1 ;
+    color: #7e4cb1;
 }
 
 .toggle_senha {
@@ -230,4 +231,13 @@ form>.botao_girar:hover {
     right: 10px;
     cursor: pointer;
     color: #7e4cb1;
+}
+
+@media (max-width: 767px) {
+
+    .form_entrar,
+    .form_cadastro {
+        border: none;
+
+    }
 }
